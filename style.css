@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.tasks {
+  width: 80vh;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.task {
+  width: 75vh;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}

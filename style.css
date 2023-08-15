@@ -28,3 +28,9 @@ h1 {
   justify-content: space-between;
   border: 1px solid black;
 }
+
+#text {
+  text-align: center;
+  font-size: 5vh;
+  color: grey;
+}
